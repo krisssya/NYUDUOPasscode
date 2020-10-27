@@ -16,4 +16,6 @@
 4. 然后运行init.py
 
 
-之后每次想要passcode的话运行passcode.py就会弹出来一个passcode啦
+之后每次想要passcode的话运行passcode.py就会自动写进clipboard一个passcode啦
+
+然后把这个passcode贴进2nd password的地方
