@@ -21,3 +21,6 @@
 可以把这几个文件藏起来然后建个passcode.py的shortcut
 
 然后把这个passcode贴进2nd password的地方
+
+
+###搞不来首次使用的配置可以请kris上门服务（？
