@@ -1,5 +1,6 @@
 import json
 import pyotp.hotp
+import pyperclip
 
 def get_key():
     with open("secret.conf", 'r') as file:
@@ -15,8 +16,8 @@ def get_hotp(key, count):
     return passcode
 
 def main():
-    print("passcode: ", get_hotp(*get_key()))
-    input('Press ENTER to exit')
+    key = get_hotp(*get_key())
+    pyperclip.copy(key)
 
 
 main()
