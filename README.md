@@ -1,3 +1,7 @@
+###new feature
+自动复制到剪贴板
+
+
 ##全平台DUO passcode开源获取程序 python ver
 
 听说anyconnect也要MFA了那就先写个自动获取passcode的组件x
